@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: rgba(0,8,38,0.86);
+    font-family: "Agave Nerd Font", sans-serif;
+    color: rgba(0,8,38,0.86);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
